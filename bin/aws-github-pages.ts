@@ -5,7 +5,7 @@ import { AwsGithubPagesStack } from '../lib/aws-github-pages-stack';
 import { domain, account, repositories } from '../settings.json';
 
 const app = new cdk.App();
-new AwsGithubPagesStack(app, 'AwsGithubPagesStack', {
+new AwsGithubPagesStack(app, 'IdeaPoolAwsGithubPagesStack', {
   env: { account: process.env.CDK_DEFAULT_ACCOUNT, region: process.env.CDK_DEFAULT_REGION },
   domain: domain,
   github_account: account,
