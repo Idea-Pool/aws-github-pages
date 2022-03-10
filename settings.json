@@ -1,12 +1,6 @@
 {
   "repositories": [
-    "lines-builder",
-    "npm-package",
-    "object-set-type",
-    "require-it",
-    "ts-service-seed",
-    "with-aws-creds"
   ],
-  "account": "szikszail",
-  "domain": "6ai.lol"
+  "account": "idea-pool",
+  "domain": "ideapool.community"
 }
