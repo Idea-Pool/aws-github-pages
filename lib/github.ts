@@ -90,7 +90,7 @@ export async function setPageDomain(repository: string): Promise<any> {
   return await handleOctokitRestRequest(octokit.rest.repos.updateInformationAboutPagesSite({
     owner: account,
     repo: repository,
-    cname: `${repository}.${domain}`,
+    cname: `https://${repository}.${domain}`,
     https_enforced: true,
   }));
 }
